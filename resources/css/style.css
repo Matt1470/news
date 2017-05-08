@@ -7,6 +7,7 @@ header {
   align-items: center;
   width: 100%;
   height: 80px;
+
 }
 
 .logo {
@@ -64,5 +65,107 @@ nav span {
 }
 
 div {
-  border: 1px solid black;  
+  display: block;
+}
+
+.imagecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.leadstory .imagecontent {
+  background-image: url("../images/krunk.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.leadstory .imagecontent span {
+  margin-left: 20px;
+}
+
+.fallcancelled.imagecontent {
+  background-image: url("../images/fall.png");
+}
+
+.popculture.imagecontent {
+  background-image: url("../images/hipster.png");
+}
+
+.catceo.imagecontent {
+  background-image: url("../images/cat.png");
+}
+
+.stories {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display:flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories .textcontent {
+  height: 250px;
+}
+
+.narrative {
+  margin-top: 16px;
+}
+
+.newsbites .bite {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.newsbites h3 {
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title {
+  display:inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display:inline-block;
+  padding-left: 25px;
 }
